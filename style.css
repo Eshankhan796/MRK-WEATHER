@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Rimouski";
+  src: url("/Assets/fonts/rimouski sb.ttf") format(TrueType);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: #2c2a38;
+  font-family: Rimouski;
+  height: 100vh;
+
+}
+
+.main-weather {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: #f4f9ff;
+  width: 86%;
+  border-radius: 18px;
+  padding: 20px 23px;
+}
+
+.tit-le {
+  border-radius: 18px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tit-le p {
+  color: #2a3352;
+  font-size: 38px;
+}
+
+.search-box {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-box form input {
+  color: #2a3352;
+  font-size: 19px;
+  font-weight: 500;
+  width: 90%;
+  height: 30px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 15px;
+}
+
+.search-box form input::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  color: #dadfe2;
+  text-transform: capitalize;
+}
+
+.search-box .icon-location {
+  position: absolute;
+  color: #2a3352;
+  font-size: 20px;
+  margin-left: 15px
+}
+
+.main-icon,
+.temperature {
+  text-align: center;
+}
+
+.main-icon img {
+  width: 50%;
+  margin-top: 12px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.temperature {
+  position: relative;
+  color: #2a3352;
+  font-size: 56px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.temperature span {
+  position: relative;
+  font-size: 48px;
+  margin-left: 12px;
+}
+
+.temperature .weather-status {
+  font-size: 16px;
+  color: #2a3352;
+}
+
+.details p {
+  color: #2a3352;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2px;
+}
+
+.details ion-icon {
+  font-size: 22px;
+  margin-left: 12px;
+  margin-top: 7px;
+  color: #2a3352;
+}
+
+.details hr {
+  margin-top: 2px;
+}
+
+footer {
+  margin: auto;
+}
+
+.line {
+  margin: auto;
+  background-color: #FF005E;
+  height: 3px;
+  width: 15%;
+  border-radius: 20px;
+  border: 1px solid #FF005E;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.Text1 {
+  text-align: center;
+  font-family: 'Rimouski';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin: auto;
+  margin-bottom: 13px;
+  color: #B3BECD;
+}
+
+.Text2 {
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  margin-bottom: 8px;
+  font-family: 'Rimouski';
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  color: #B3BECD;
+}
+
+.Text3 {
+  text-align: center;
+  margin: auto;
+  font-family: 'Rimouski';
+  font-weight: 800;
+  line-height: 15px;
+  font-size: 12px;
+  font-style: normal;
+  color: #B3BECD;
+  text-transform: uppercase;
+}
+
+.Text4 {
+  text-align: center;
+  margin: auto;
+  font-family: 'Rimouski';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #B3BECD;
+}
+
+.Text4 a {
+  text-decoration: none;
+  font-family: 'Rimouski';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #B3BECD;
+}
+
+.Text5 {
+  text-align: center;
+  font-family: 'Rimouski';
+  font-style: normal;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #B3BECD;
+}
+
+.copyright {
+  text-align: center;
+  margin: auto;
+  font-family: 'Rimouski';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #B3BECD;
+}
+
+.social-icon {
+  font-size: 17px;
+  color: #B3BECD;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1px;
+}
